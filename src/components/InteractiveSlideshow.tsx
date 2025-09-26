@@ -90,6 +90,7 @@ const InteractiveSlideshow: React.FC = () => {
           >
             ◀
           </button>
+          
 
           <div className="flex w-full overflow-hidden gap-4 justify-center">
             {visibleSlides.map((slide) => (
