@@ -32,7 +32,7 @@ const InfoBlock: React.FC<InfoBlockProps> = ({
       </div>
 
       {/* Text */}
-      <div className="bg-green-800 text-white p-6  h-[300px] md:h-[500px] items-center justify-center flex flex-col ">
+      <div className="bg-[#191919] text-white p-6  h-[300px] md:h-[500px] items-center justify-center flex flex-col ">
         <h2 className="text-2xl font-bold mb-2">{title}</h2>
         <h3 className="text-lg font-semibold mb-4">{subtitle}</h3>
         <p className="text-sm leading-relaxed">{description}</p>

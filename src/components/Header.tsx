@@ -12,6 +12,8 @@ const Header: React.FC = () => {
     { path: '/sickle-cell', label: 'About the Disease' },
     { path: '/history', label: 'Our History' },
     { path: '/resources', label: 'Resources' },
+    { path: '/mothers-tail', label: 'Mothers Tail' },
+
     { path: '/make-donations', label: 'Donate' },
 
   ];

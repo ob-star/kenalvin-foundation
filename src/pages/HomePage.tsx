@@ -26,7 +26,7 @@ const HomePage: React.FC = () => {
 Since our humble beginnings, we’ve been driven by the same ideas we initially founded our Non-Profit Organization upon: support, empowerment, and progress.
 
 Learn more about our mission, our vision, and how we go about making the changes we want to see"
-        backgroundImage="/public/image/hero.webp"
+        backgroundImage="/image/hero.webp"
         ctaText="Learn More"
         ctaLink="/what-is-sickle-cell"
       />
@@ -44,7 +44,7 @@ Learn more about our mission, our vision, and how we go about making the changes
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
           {stats.map((stat, index) => (
             <div key={index} className="text-center">
-              <div className="bg-gradient-to-br from-blue-600 to-teal-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="bg-gradient-to-br from-orange-600 to-teal-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <stat.icon className="w-8 h-8 text-white" />
               </div>
               <div className="text-3xl font-bold text-gray-900 mb-2">{stat.value}</div>
@@ -56,7 +56,11 @@ Learn more about our mission, our vision, and how we go about making the changes
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <ContentCard
             title="Who We Are"
-            content="Established in 2019, KENALVIN Foundation is driven by progressive ideas, bold actions, and a strong foundation of support. We focus on educating communities about sickle cell disease and providing resources for those affected by this condition."
+            content="Established in 2019, KENALVIN Foundation is driven by progressive ideas, bold actions, and a strong foundation of support. We focus on educating communities about sickle cell disease and providing resources for those affected by this condition. Here at KENALVIN Foundation, we are driven by a single goal; to do our part in making the world a better place for all.
+
+    Our decision-making process is informed by comprehensive empirical studies and high-quality data evaluation.
+
+    We strive to build productive relationships and make a positive impact with all of our pursuits."
           />
           <ContentCard
             title="What We Do"
@@ -67,10 +71,7 @@ Learn more about our mission, our vision, and how we go about making the changes
 
       <InteractiveSlideshow />
 
-      <QuoteSection
-        quote="Great things are done by a series of small things brought together"
-        author="Vincent van Gogh"
-      />
+      
 
       {/* Activities Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
@@ -100,8 +101,12 @@ Learn more about our mission, our vision, and how we go about making the changes
 
         </div>
       </section>
+      <QuoteSection
+        quote="Great things are done by a series of small things brought together"
+        author="Vincent van Gogh"
+      />
 
-      <div className="space-y-1 p-3  mx-auto">
+      <div className="space-y-1 p-3 max-w-8xl   mx-auto">
       <InfoBlock
         title="Homeless Outreach"
         subtitle="One Step at a Time"

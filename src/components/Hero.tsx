@@ -25,11 +25,11 @@ const Hero: React.FC<HeroProps> = ({
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${backgroundImage})` }}
       />
-      <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 to-teal-900/60" />
+      <div className="absolute inset-0 bg-gradient-to-r from-orange-900/50 to-yellow-900/70" />
       
       <div className="relative z-10 text-center max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {subtitle && (
-          <p className="text-blue-200 text-lg md:text-xl mb-4 font-medium">
+          <p className="text-orange-200 text-lg md:text-xl mb-4 font-medium">
             {subtitle}
           </p>
         )}

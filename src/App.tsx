@@ -8,6 +8,7 @@ import SickleCellPage from './pages/SickleCellPage';
 import HistoryPage from './pages/HistoryPage';
 import ResourcesPage from './pages/ResourcesPage';
 import MakeADonation from './pages/MakeDonation';
+import MothersTail from './pages/MothersTail';
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
             <Route path="/sickle-cell" element={<SickleCellPage />} />
             <Route path="/history" element={<HistoryPage />} />
             <Route path="/resources" element={<ResourcesPage />} />
+            <Route path="/mothers-tail" element={<MothersTail />} />
+
             <Route path="/make-donations" element={<MakeADonation />} />
 
           </Routes>

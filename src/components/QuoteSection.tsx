@@ -8,8 +8,8 @@ interface QuoteSectionProps {
 
 const QuoteSection: React.FC<QuoteSectionProps> = ({ quote, author }) => {
   return (
-    <div className="bg-gradient-to-r from-blue-600 to-teal-600 py-16 px-4">
-      <div className="max-w-4xl mx-auto text-center">
+    <div className="  ">
+      <div className="max-w-7xl mx-auto text-center flex flex-col items-center py-16 px-4  justify-center bg-gradient-to-r from-orange-600/60 to-orange-900/60">
         <Quote className="w-12 h-12 text-blue-200 mx-auto mb-6" />
         <blockquote className="text-2xl md:text-3xl font-medium text-white mb-6 leading-relaxed">
           {quote}
