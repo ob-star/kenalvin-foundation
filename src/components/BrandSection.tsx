@@ -12,7 +12,7 @@ const BrandSection: React.FC = () => {
       />
       
       {/* Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-orange-600/60 via-orange-600/40 to-yellow-700/60" />
+      <div className="absolute inset-0 bg-gradient-to-r from-black/60  to-yellow-700/60" />
       
       {/* Content */}
       <div className="relative z-10 text-center max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -26,7 +26,6 @@ const BrandSection: React.FC = () => {
           <h2 className="text-3xl md:text-5xl lg:text-6xl font-light text-white/90 leading-tight">
             Foundation
           </h2>
-          
           {/* Tagline */}
           <div className="mt-12">
             <p className="text-xl md:text-2xl lg:text-3xl text-white/80 font-light tracking-wide">
